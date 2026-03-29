@@ -12,4 +12,27 @@ M - Multiplication
 D - Division
 Q - Quit the game");
 Console.WriteLine("---------------------------------------------------");
-Console.ReadLine();
+
+string gameSelected = Console.ReadLine();
+
+if (gameSelected == "a")
+{
+    Console.WriteLine("Addition game selected");
+}
+else if (gameSelected == "s")
+{
+    Console.WriteLine("Addition game selected");
+}
+else if (gameSelected == "m")
+{
+    Console.WriteLine("Addition game selected");
+}
+else if (gameSelected == "d")
+{
+    Console.WriteLine("Addition game selected");
+}
+else
+{
+    Console.WriteLine("Goodbye");
+    Environment.Exit(1);
+}
