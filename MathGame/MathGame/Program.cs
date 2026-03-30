@@ -15,19 +15,20 @@ Console.WriteLine("---------------------------------------------------");
 
 string gameSelected = Console.ReadLine();
 
-if (gameSelected == "a")
+
+if (gameSelected.Trim().ToUpper() == "a")
 {
     Console.WriteLine("Addition game selected");
 }
-else if (gameSelected == "s")
+else if (gameSelected.Trim().ToUpper() == "s")
 {
     Console.WriteLine("Addition game selected");
 }
-else if (gameSelected == "m")
+else if (gameSelected.Trim().ToUpper() == "m")
 {
     Console.WriteLine("Addition game selected");
 }
-else if (gameSelected == "d")
+else if (gameSelected.Trim().ToUpper() == "d")
 {
     Console.WriteLine("Addition game selected");
 }
