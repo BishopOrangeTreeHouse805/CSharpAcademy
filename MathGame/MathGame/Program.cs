@@ -18,22 +18,44 @@ string gameSelected = Console.ReadLine();
 
 if (gameSelected.Trim().ToUpper() == "a")
 {
-    Console.WriteLine("Addition game selected");
+    AdditionGame();
 }
 else if (gameSelected.Trim().ToUpper() == "s")
 {
-    Console.WriteLine("Addition game selected");
+    SubstractionGame();
 }
 else if (gameSelected.Trim().ToUpper() == "m")
 {
-    Console.WriteLine("Addition game selected");
+    MultiplicationGame();
 }
 else if (gameSelected.Trim().ToUpper() == "d")
 {
-    Console.WriteLine("Addition game selected");
+    DivisionGame();
 }
 else
 {
     Console.WriteLine("Goodbye");
     Environment.Exit(1);
+}
+
+
+//Methods for the game
+void AdditionGame()
+{
+    Console.WriteLine("Addition game selected");
+}
+
+void SubstractionGame()
+{
+    Console.WriteLine("Substraction game selected");
+}
+
+void MultiplicationGame()
+{
+    Console.WriteLine("Multiplication game selected");
+}
+
+void DivisionGame()
+{
+    Console.WriteLine("Division game selected");
 }
